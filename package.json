@@ -1,0 +1,26 @@
+{
+    "name": "laura-in-node",
+    "version": "1.0.0",
+    "description": "Another personal website",
+    "main": "server/index.js",
+    "scripts": {
+        "build": "webpack -d --watch",
+        "start": "nodemon server/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lheddleston/laura-in-node"
+    },
+    "author": "Laura Heddleston",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lheddleston/laura-in-node/issues"
+    },
+    "homepage": "https://github.com/lheddleston/laura-in-node#readme",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {}
+}
